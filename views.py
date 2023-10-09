@@ -1,4 +1,5 @@
 from Darkoob import send_response
+
 # Route functions
 def home(request_handler,data,method):
     if method=="POST":
@@ -10,8 +11,9 @@ def home(request_handler,data,method):
     if method=="GET":
         request_handler.render_template('index.html', title='Home Page',message='ss to the Home Page!')
 
-def about(request_handler,data,http_method):
+def about(request_handler,data,method):
     request_handler.render_template('about.html', title='About Us')
 
-def contact(request_handler,data,http_method):
+def contact(request_handler,data,method):
     request_handler.render_template('contact.html', title='Contact Us')
+

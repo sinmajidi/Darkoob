@@ -19,6 +19,7 @@ class MyRequestHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
+
     def render_template(self, template_name, **context):
         template = template_env.get_template(template_name)
         rendered_template = template.render(**context)
