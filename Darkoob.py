@@ -200,6 +200,3 @@ def cookie_delete(request_handler, key):
             return headers
     return None
 
-
-
-#query_parameter
