@@ -13,6 +13,8 @@ from http.server import SimpleHTTPRequestHandler,HTTPServer
 
 from jinja2 import Environment, FileSystemLoader
 import  json
+import socket
+
 from datetime import datetime, timedelta
 template_dir = "templates"
 template_env = Environment(loader=FileSystemLoader(template_dir))
@@ -161,11 +163,12 @@ def send_response(request_handler, status_code, response_data, headers=None):
     request_handler.wfile.write(response.encode('utf-8'))
 
 # Function to start the server
-def run_server(host='localhost', port=8000):
+def run_server(host='localhost', port=8080):
     server_address = (host, port)
     httpd = HTTPServer(server_address, MyRequestHandler)
-    print(f"Server started on {server_address[0]}:{server_address[1]}")
+    print(f"Server started on http://{server_address[0]}:{server_address[1]}/")
     httpd.serve_forever()
+
 
 
 #cookies function
