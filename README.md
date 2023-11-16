@@ -73,4 +73,4 @@ Darkoob is an open-source project, and we welcome contributions from the communi
 
 Happy coding! 😊
 
-For more information, visit afraiot.org.
+For more information, visit https://afraiot.org.
