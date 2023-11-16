@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71744943-44bc-4cb5-b90c-fe7ee043d63f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Darkoob.py" beforeDir="false" afterPath="$PROJECT_DIR$/Darkoob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Darkoob_sqlite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Darkoob_sqlite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,7 @@
       <workItem from="1697299652558" duration="993000" />
       <workItem from="1697382364109" duration="619000" />
       <workItem from="1697460635301" duration="823000" />
-      <workItem from="1700042153349" duration="6439000" />
+      <workItem from="1700042153349" duration="8072000" />
     </task>
     <servers />
   </component>
